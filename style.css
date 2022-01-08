@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: rgb(67, 83, 119);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.randominfo-content{
+    background-color: white;
+}
+
+.text-content{
+    background-color: rgb(177, 173, 166);
+}
+
+.signup-content{
+    background-color: white;
+}
+
+.footer{
+    background-color: rgb(25, 25, 61);
+}
+
+ul{
+    list-style-type: none;
+    gap: 20px; 
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 5px 100px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-shrink: 0;
+    color: rgb(219, 90, 90);
+    font-size: 20px;
+    
+}
+
+.logo h5{
+    font-size: 15px;
+}
+
+.logo h5:hover{
+    color: royalblue;
+}
+
+li:hover{
+    background-color: rgb(197, 73, 73);
+    border-radius: 50%;
+}
+
+.header-image img{
+    width: 50px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 30px;
+    border-radius: 50%;
+}
+
+.header-links{
+    flex: 1;
+}
